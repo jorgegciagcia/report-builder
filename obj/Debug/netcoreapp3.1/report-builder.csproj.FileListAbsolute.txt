@@ -35,3 +35,7 @@
 /home/adminuser/development/report-builder/obj/Debug/netcoreapp3.1/report-builder.pdb
 /home/adminuser/development/report-builder/obj/Debug/netcoreapp3.1/report-builder.genruntimeconfig.cache
 /home/adminuser/development/report-builder/obj/Debug/netcoreapp3.1/report-builder.csproj.CopyComplete
+/home/adminuser/development/report-builder/bin/Debug/netcoreapp3.1/report-templates/executive-clara-rc.json
+/home/adminuser/development/report-builder/bin/Debug/netcoreapp3.1/HtmlAgilityPack.NetCore.dll
+/home/adminuser/development/report-builder/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/adminuser/development/report-builder/obj/Debug/netcoreapp3.1/Razor/Views/Report/Index.cshtml.g.cs

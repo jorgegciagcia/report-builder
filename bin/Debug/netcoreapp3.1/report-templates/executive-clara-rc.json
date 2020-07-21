@@ -1,0 +1,248 @@
+{
+    "typeOf": "reportDocument",
+    "Cards": [
+        {
+            "typeOf": "label",
+            "Properties": {
+                "Style": "text-align:right",
+                "Class": "container",
+                "Caption": "{ContainerOne.TestCaption}"
+            }
+        },
+        {
+            "typeOf": "collapse",
+            "Properties": {
+                "Caption": "Htlm Content Example",
+                "CollapseMode": "hide",
+                "HtmlContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            }
+        },
+        {
+            "typeOf": "collapse",
+            "Properties": {
+                "Caption": "Cards into example",
+                "CollapseMode": "hide"
+            },
+            "Cards": [
+                {
+                    "typeOf": "label",
+                    "Properties": {
+                        "Style": "text-align:left",
+                        "Class": "container",
+                        "Caption": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32."
+                    }
+                }
+            ]
+        },
+        {
+            "typeOf": "collapse",
+            "Properties": {
+                "Caption": "Cards into example using data class",
+                "CollapseMode": "hide"
+            },
+            "Cards": [
+                {
+                    "typeOf": "label",
+                    "Properties": {
+                        "Style": "text-align:left",
+                        "Class": "container",
+                        "Caption": "{ContainerOne.LoremIpsum}"
+                    }
+                }
+            ]
+        },
+        {
+            "typeOf": "collapse",
+            "Properties": {
+                "Caption": "Complex Table Sample",
+                "CollapseMode": "show"
+            },
+            "Cards": [
+                {
+                    "typeOf": "complexTable",
+                    "SpecificData": {
+                        "ComplexTable": {
+                            "Headers": [
+                                {
+                                    "Caption": "Column #1",
+                                    "Style": "font-weight:bold"
+                                },
+                                {
+                                    "Caption": "Column #2",
+                                    "Style": "font-weight:bold"
+                                },
+                                {
+                                    "Caption": "Column #3",
+                                    "Style": "font-weight:bold"
+                                }
+                            ],
+                            "Rows": [
+                                [
+                                    {
+                                        "Caption": "data #1.1"
+                                    },
+                                    {
+                                        "Caption": "data #1.2"
+                                    },
+                                    {
+                                        "Caption": "data #1.3",
+                                        "Style": "color:red"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Caption": "data #2.1"
+                                    },
+                                    {
+                                        "Caption": "data #2.2"
+                                    },
+                                    {
+                                        "Caption": "data #2.3"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "Caption": "data #3.1"
+                                    },
+                                    {
+                                        "Caption": "data #3.2"
+                                    },
+                                    {
+                                        "Caption": "data #3.3"
+                                    }
+                                ]
+                            ]
+                        }
+                    },
+                    "Properties": {
+                        "Class": "table"
+                    }
+                }
+            ]
+        },
+        {
+            "typeOf": "collapse",
+            "Properties": {
+                "Caption": "Complex Table Sample using data class",
+                "CollapseMode": "show"
+            },
+            "Cards": [
+                {
+                    "typeOf": "complexTable",
+                    "Properties": {
+                        "Class": "table",
+                        "TableDefinition": "{CommonDataForTable.ComplexTable}"
+                    }
+                }
+            ]
+        },
+        {
+            "typeOf": "collapse",
+            "Properties": {
+                "Caption": "Simple Table Sample",
+                "CollapseMode": "hide"
+            },
+            "Cards": [
+                {
+                    "typeOf": "simpleTable",
+                    "SpecificData": {
+                        "SimpleTable": {
+                            "Headers": [
+                                "<b>Column #1</b>",
+                                "<b>Column #2</b>",
+                                "<b>Column#3</b>"
+                            ],
+                            "Rows": [
+                                [
+                                    "data #1.1",
+                                    "data #1.2",
+                                    "data #1.3"
+                                ],
+                                [
+                                    "data #2.1",
+                                    "data #2.2",
+                                    "data #2.3"
+                                ],
+                                [
+                                    "data #3.1",
+                                    "data #3.2",
+                                    "<span style=\"color:red\">data #3.3</span>"
+                                ]
+                            ]
+                        }
+                    },
+                    "Properties": {
+                        "Class": "table"
+                    }
+                }
+            ]
+        },
+        {
+            "typeOf": "collapse",
+            "Properties": {
+                "Caption": "Simple Table Sample using data class",
+                "CollapseMode": "show"
+            },
+            "Cards": [
+                {
+                    "typeOf": "simpleTable",
+                    "Properties": {
+                        "Class": "table",
+                        "TableDefinition": "{CommonDataForTable.SimpleTable}"
+                    }
+                }
+            ]
+        },
+        {
+            "typeOf": "decoratedCollapse",
+            "SpecificData": {
+                "PercentageBoxValues": [
+                    {
+                        "Color": "green",
+                        "Percentage": 20
+                    },
+                    {
+                        "Color": "blue",
+                        "Percentage": 50
+                    },
+                    {
+                        "Color": "red",
+                        "Percentage": 30
+                    }
+                ]
+            },
+            "Properties": {
+                "Caption": "Decorated collapse",
+                "CollapseMode": "show"
+            },
+            "Cards": [
+                {
+                    "typeOf": "label",
+                    "Properties": {
+                        "Style": "text-align:left",
+                        "Class": "container",
+                        "Caption":"estoy es un ejemplo"
+                    }
+                }
+            ]
+        },
+        {
+            "typeOf": "decoratedCollapse",
+            "Properties": {
+                "Caption": "Decorated collapse using data class",
+                "CollapseMode": "hide",
+                "PercentageBoxDefinition":"{PercentageExample}"
+            },
+            "Cards": [
+                {
+                    "typeOf": "label",
+                    "Properties": {
+                        "Style": "text-align:left",
+                        "Class": "container",
+                        "Caption":"estoy es otro ejemplo"
+                    }
+                }
+            ]
+        }
+    ]
+}

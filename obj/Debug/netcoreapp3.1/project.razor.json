@@ -20521,6 +20521,11 @@
   "RootNamespace": "report_builder",
   "Documents": [
     {
+      "FilePath": "/home/adminuser/development/report-builder/Views/Report/Index.cshtml",
+      "TargetPath": "Views\\Report\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/adminuser/development/report-builder/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
